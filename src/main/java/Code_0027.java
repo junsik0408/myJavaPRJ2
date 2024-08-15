@@ -1,0 +1,13 @@
+public class Code_0027 {
+    public static void main(String[] args) {
+
+        int[] ary = {10, 20, 30};
+
+        try {
+            ary[3] = 1234;
+        } catch (Exception e) {
+            System.out.println("오류 발생! 확인해 보세요~");
+        }
+
+    }
+}
